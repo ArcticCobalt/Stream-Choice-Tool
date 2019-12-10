@@ -1,0 +1,37 @@
+
+Cobalt's StreamSort
+
+The StreamSort program is to be used to organize games that you would stream.
+It will be capable of giving a reasonable amount of time for the games relative
+to your alloted streaming time.
+
+It will intake 2 files and output 2 files.
+It takes in a set of dates available and the types of games you can play.
+It outputs your schedule with the chosen games. It offers the ability to intake the schedule again and give players that can join
+
+It requires a .txt of your schedule with the format
+
+[Date Format]
+
+Monday 14:00 - 18:00
+
+Tuesday	(No time)
+
+Wednesday 10:00 - 12:00
+
+Thursday 16:00 - 19:00
+
+Friday (No time)
+
+Saturday (No time)
+
+Sunday (No time)
+
+[Game Format]
+
+[Name] [Single/Multi] [Max Players] [Playable Hours]
+Valid inputs:
+
+N/A     Singleplayer	1		12
+	Multiplayer	12		Infinite
+
