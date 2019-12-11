@@ -1,0 +1,15 @@
+//Class for the game design
+
+#include <iostream>
+
+class Game {
+private:
+  string name;
+  bool isMultiplayer;
+  int hours, maxPlayers;  
+public:
+  Game(){
+    std::cout << "Error: No game data given" << std::endl;
+  }
+  Game(string)
+}
